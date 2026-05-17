@@ -154,3 +154,13 @@ Stress mode loops kernels continuously for a set duration (30 seconds per benchm
   - `reporting`: Formats the tabular terminal UI and machine-readable exports.
 - `src/benchmarks/`: Host-side C++ objects responsible for buffer allocations, enqueueing, and defining metric formulas for each test.
 - `kernels/`: Raw OpenCL C99/C11 `.cl` files containing the math and logic executed on the GPU.
+
+## Acknowledgements
+
+This project was built using the following technologies and tools:
+* **[OpenCL](https://www.khronos.org/opencl/)** - For cross-platform parallel programming and GPU acceleration.
+* **[CMake](https://cmake.org/)** - For build configuration and project management.
+* **[Google Gemini 3](https://geminicli.com/)** - For AI-assisted development, code optimization, and debugging support.
+
+## License
+[Mozilla Public License Version 2.0](LICENSE) - Feel free to use and modify
