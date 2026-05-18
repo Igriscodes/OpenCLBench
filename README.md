@@ -59,7 +59,7 @@ OpenCLBench is categorized into domain-specific benchmarks. Each benchmark isola
 Run the following to install all necessary build tools, OpenCL loaders, Intel drivers, and diagnostic tools:
 ```bash
 sudo apt update
-sudo apt install -y build-essential cmake ocl-icd-libopencl1 ocl-icd-opencl-dev clinfo intel-opencl-icd graphviz
+sudo apt install -y build-essential cmake ocl-icd-libopencl1 ocl-icd-opencl-dev clinfo intel-opencl-icd graphviz doxygen
 ```
 *(Note: `intel-opencl-icd` is required for Intel GPUs. NVIDIA and AMD users should ensure their proprietary drivers are installed via the standard 'Software & Updates' tool or vendor installers).*
 
